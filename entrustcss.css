@@ -1,0 +1,126 @@
+body{
+    background-image: url(image/40.png);
+}
+
+#warning, #head, #half, #full, #small{
+    display: block;
+    height: 800px;
+}
+
+#warning{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1100px;
+    border: 5px white dashed;
+}
+
+#head{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 15px auto;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;*/
+    width: 1100px;
+    border: 5px white dashed;
+}
+
+#half{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 15px auto;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;*/
+    width: 1100px;
+    border: 5px white dashed;
+}
+
+#full{
+    background-color: rgba(0, 0, 0, 0.26);
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1100px;
+    border: 5px white dashed;
+}
+
+#small{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 15px auto;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;*/
+    width: 1100px;
+    border: 5px white dashed;
+}
+
+.back{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+#main_meun{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;    
+    align-content: center;      
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+#main_meun li{
+    display: inline-block;
+}
+
+#main_meun li a{
+    display: block;
+    padding: 5px 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.text{
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.text_warming{
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em 0.2em black 
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+#left{
+    width: 1000px;
+    float: left;
+    margin: 50px;
+    
+}
+
+#right{
+    width: 430px;
+    float: right;
+}
